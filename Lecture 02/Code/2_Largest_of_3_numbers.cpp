@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/*
+Find largest of 3 numbers
+*/
+
 int main() {
     int a = 5, b = 10, c = 3;
     if (a > b && a > c) {

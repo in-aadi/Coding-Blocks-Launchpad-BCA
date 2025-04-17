@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+/*
+Read P,R,T and calculate SI
+*/
+
 int main(){
 	int P;
 	cout << "Enter P: ";
