@@ -1,6 +1,13 @@
 #include<iostream>
 using namespace std;
 
+/*
+1           1
+1 2       2 1  
+1 2 3   3 2 1
+1 2 3 4 3 2 1
+*/
+
 int main() {
     int n;
     cin >> n;
@@ -10,10 +17,10 @@ int main() {
             cout << j << ' ';
         }
         for (int k = n - i; k >= 1; k--) {
-            cout << ' ';
+            cout << "  ";
         }
         for (int k = n - i - 1; k >= 1; k--) {
-            cout << ' ';
+            cout << "  ";
         }
         for (int l = i; l >= 1; l--) {
             if (l == n) {

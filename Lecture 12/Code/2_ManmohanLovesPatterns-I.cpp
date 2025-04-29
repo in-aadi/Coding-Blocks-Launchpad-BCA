@@ -1,6 +1,15 @@
 #include<iostream>
 using namespace std;
 
+/*
+1
+11
+111
+1001
+11111
+100001
+*/
+
 int main() {
     int n;
     cin >> n;
